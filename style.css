@@ -1,26 +1,17 @@
 
+/* style css body*/
+html{
+    height: 100%;
+}
 a{
     color: rgb(7, 31, 79);
 }
-.foot{
-    background-color: rgb(111, 187, 204);
-    border-radius: 30px;
-    position:absolute;
-    bottom:0;
-    width:99%;
-    height:50px;
-    display: flex;
-    align-items: center;
-    opacity: 0.9;
-    justify-content: center;
-    }
-.foot1{
-    font-size: large;
-    font-size: 1.5em;
-    font-style: italic;
-    font-weight: bold;
-    margin-left: 100px;
-    }
+body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
 header{
     background-color: rgb(111, 187, 204);
     opacity: 0.9;
@@ -30,7 +21,11 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.nam{
+#abi{
+    width:300px;
+    margin: auto
+  }
+  .nam{
     color: rgba(189, 89, 8, 0.938);
     text-shadow: 6px 6px 10px rgb(208, 244, 245);
     width: 600px;
@@ -39,6 +34,12 @@ header{
 }
 .nam1{
     margin-left: 70px;
+}
+.login{
+    color: rgba(115, 70, 29, 0.938);
+    font-weight: bold;
+    width : 200px;
+    margin: 10px ; 
 }
 .menu{
     background-color: rgb(139, 196, 209);
@@ -59,36 +60,20 @@ header{
     font-style: italic;
    font-weight: bold;
 }
-#abi{
-  width:300px;
-  margin: auto
-}
+/*body index.html*/
 #body{
+    width: 100%;
+    margin: auto;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-image: url("picture/fond.jpg");
 }
-#bodystuff{
-    background-color:rgb(186, 183, 183);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    }
-.login{
-    color: rgba(115, 70, 29, 0.938);
-    font-weight: bold;
-    width : 200px;
-    margin: 10px ; 
-}
-.video{
-    opacity: 0.6;
-    width: 800px;
-    margin-top: 50px;
-    margin-right: 50px;
-    float: right;
+.sectionBody{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
 }
 .p{
     width:600px;
@@ -99,62 +84,90 @@ header{
     text-align: justify;
    color: rgb(59, 59, 142);
    font-style: italic;
-   font-size: 30px;
-   float: left;
-   margin-left: 200px;
-   margin-top: 100px;
+   font-size: 25px; 
 }
-.formstuff{
-    color: white;
-    font-weight: bold;
-    width: 600px;
-    margin: 20px;
+/*style css stuff list */
+#bodystuff{
+    width: 100%;
+    margin: auto;
+    background-color:rgb(186, 183, 183);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+    .formstuff{
+        color: white;
+        font-weight: bold;
+        width: 600px;
+        margin: 20px;
+    }
+    #otherstaff{
+        color: white;
+        margin-left: 10px;
+    }
+    #IdCollab{
+        border: 20px rgb(128, 46, 46);
+        border-radius: 20px;
+        margin: 25px;
+        font-size: large;
+    }
+    #enterstuff{
+        margin-left: 350px;
+    }
+    .tablestuff{
+        overflow: auto;
+        border: 3px solid black;
+        border-collapse:collapse;
+        width:90%;
+        margin:auto;
+    }
+    caption {
+        margin: 60px;
+        font-size: 50px;
+        color: rgb(101, 139, 194);
+        font-style: italic;
+        font-weight: bold;
+        font-family:sans-serif;
+     }
+     thead{
+        background-color:#D0E3FA;
+        border:1px solid #6495ed;
+    }
+    tbody {
+        background-color:#FFFFFF;
+        border:1px solid #6495ed;
+        }
+    th {
+        border:1px dotted #6495ed;
+        background-color:#EFF6FF;
+        padding:5px;
+        }
+     td {
+        font-size:80%;
+        border:1px solid #6495ed;
+        padding:5px;
+        text-align:left;
+        font-family:sans-serif;
+        }
+/*style css footer*/
+footer{
+    position: absolute; bottom: 0;
+    width: 100%;
 }
-#otherstaff{
-    color: white;
-    margin-left: 10px;
-}
-#IdCollab{
-    border: 20px rgb(128, 46, 46);
-    border-radius: 20px;
-    margin: 25px;
+.foot{
+    background-color: rgb(111, 187, 204);
+    border-radius: 30px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+    justify-content: center;
+    }
+.foot1{
     font-size: large;
-}
-#enterstuff{
-    margin-left: 350px;
-}
-.tablestuff{
-    overflow: auto;
-    border: 3px solid black;
-    border-collapse:collapse;
-    width:90%;
-    margin:auto;
-}
-thead{
-    background-color:#D0E3FA;
-    border:1px solid #6495ed;
-}
-tbody {
-    background-color:#FFFFFF;
-    border:1px solid #6495ed;
-    }
-th {
-    border:1px dotted #6495ed;
-    background-color:#EFF6FF;
-    padding:5px;
-    }
- td {
-     font-size:80%;
-     border:1px solid #6495ed;
-     padding:5px;
-     text-align:left;
-     font-family:sans-serif;
-    }
-caption {
-    margin: 60px;
-    font-size: 50px;
-    color: rgb(101, 139, 194);
+    font-size: 1.5em;
     font-style: italic;
     font-weight: bold;
-    font-family:sans-serif;
- }
+    margin-left: 100px;
+    }
