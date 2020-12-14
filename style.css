@@ -82,9 +82,11 @@ header{
     box-shadow: white;
     text-shadow: rgb(211, 146, 49);
     text-align: justify;
-   color: rgb(59, 59, 142);
+   color: rgb(59, 87, 142);
    font-style: italic;
-   font-size: 25px; 
+   font-size: 25px;
+   font-weight: bold;
+   padding: 20px; 
 }
 /*style css stuff list */
 #bodystuff{
@@ -97,59 +99,68 @@ header{
     background-repeat: no-repeat;
     }
     .formstuff{
-        color: white;
+        color: rgb(137, 75, 17);
         font-weight: bold;
         width: 600px;
         margin: 20px;
     }
     #otherstaff{
-        color: white;
+        color: rgb(22, 67, 145);
         margin-left: 10px;
     }
     #IdCollab{
-        border: 20px rgb(128, 46, 46);
+        border: 20 rgba(211, 127, 37, 0.755);
         border-radius: 20px;
-        margin: 25px;
-        font-size: large;
+        font-size: medium;
+        
+        background-color: #dd792771;
     }
     #enterstuff{
-        margin-left: 350px;
+        color: rgb(10, 47, 93);
+        font-weight: bold;
+        margin-left: 300px;
+        background-color: #34619d90;
+        border-radius: 20px;
     }
     .tablestuff{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         overflow: auto;
-        border: 3px solid black;
+        border: 3px solid rgb(37, 81, 142);
         border-collapse:collapse;
         width:90%;
         margin:auto;
+        border-collapse: collapse;
     }
     caption {
-        margin: 60px;
-        font-size: 50px;
-        color: rgb(101, 139, 194);
+        margin:10px ;
+        font-size: 30px;
+        color: rgba(40, 72, 118, 0.864);
         font-style: italic;
         font-weight: bold;
         font-family:sans-serif;
-     }
+    }
      thead{
-        background-color:#D0E3FA;
-        border:1px solid #6495ed;
+        background-color:#55cbd87e;
+        border:9px solid #94bbc1;
+        color: #0f4f3e;
     }
     tbody {
         background-color:#FFFFFF;
-        border:1px solid #6495ed;
-        }
+        border:3px solid #525b6e;
+    }
     th {
-        border:1px dotted #6495ed;
-        background-color:#EFF6FF;
-        padding:5px;
-        }
-     td {
+        border:3px solid #a8aeba;
+        background-color:#53a1b6bb;
+        padding:9px;
+    }
+     td{
+        background-color:#41a99e68;
         font-size:80%;
-        border:1px solid #6495ed;
+        border:5px solid #99a0af8d;
         padding:5px;
         text-align:left;
         font-family:sans-serif;
-        }
+    }
 /*style css footer*/
 footer{
     position: absolute; bottom: 0;
