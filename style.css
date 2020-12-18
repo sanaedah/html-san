@@ -27,7 +27,6 @@
     display: flex;
     justify-content: space-around;
   }
-  
   #logo img {
     width: 300px;
     padding-top: 25px;
@@ -143,25 +142,27 @@
   font-family:sans-serif;
   padding:5px;
 }
-#bodyTable{
+#staff{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-collapse: collapse;
   width: 100%;
   margin-top: 30px;
-  margin-bottom: 30px;
+  background-color: #ddd;
+  
 }
-td{
+#staff td,
+#staff th{
   border: 1px solid #ddd;
   padding: 8px;
   font-family:sans-serif
 }
-tr:nth-child(even){
+#staff tr:nth-child(even){
   background-color: rgba(26, 76, 99, 30%);
 }
-tr:hover {
+#staff tr:hover {
   background-color: #ddd;
 }
-th {
+#staff th {
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
