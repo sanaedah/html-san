@@ -8,13 +8,13 @@
     font-family: "Websitefont";
     src: url("./Fonts/2Dumb.ttf");
   }
-  
   body {
     background: url("./Pictures/fond.jpg") fixed rgba(0, 140, 255, 0.3);
     color: rgb(50, 50, 50);
     font-family: "Websitefont", sans-serif;
+    background-position: center;
+    background-size: cover; 
   }
-  
   header,
   footer {
     background-color: rgba(111, 187, 204, 0.9);
@@ -23,7 +23,6 @@
     clear: both;
     opacity: 0.8;
   }
-  
   #header,
   #footer {
     display: flex;
@@ -34,7 +33,6 @@
     width: 300px;
     padding-top: 25px;
   }
-  
   #websiteTitle {
     font-family: "Titlefont", sans-serif;
     text-align: center;
@@ -42,23 +40,19 @@
     text-shadow: 6px 6px 10px rgb(208, 244, 245);
     width: 600px;
   }
-  
   #description {
     font-family: "Websitefont", sans-serif;
     font-size: 125%;
     font-weight: bold;
   }
-  
   #loginout {
     text-align: right;
     padding-top: 25px;
   }
-  
   #submission {
     text-align: center;
     padding-top: 10px;
   }
-  
   nav {
     background-color: rgba(111, 187, 204, 0.9);
     box-shadow: 6px 10px 20px rgb(43, 143, 231);
@@ -68,62 +62,51 @@
     border-radius: 20px;
     opacity: 0.8;
   }
-  
   nav ul,
   footer ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
   }
-  
   nav li,
   footer li {
     margin-right: 30px;
   }
-  
   nav a,
   footer a {
     color: rgb(50, 50, 50);
     text-decoration: none;
   }
-  
   nav a {
     font-size: 1.3em;
   }
-  
   nav a:hover,
   footer a:hover {
     color: rgba(189, 89, 8, 0.9);
     border-bottom: 3px solid rgba(189, 89, 8, 0.9);
   }
-  
   input,
   select,
   textarea {
     background-color: rgba(127, 255, 212, 0.5);
     opacity: 0.8;
   }
-  
   .information {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  
   #personalInformation label {
     width: 195px;
     float: left;
   }
-  
   .pictureFloat {
     float: left;
   }
-  
   h2,
   h3 {
     text-align: center;
   }
-  
   article {
     width: 800px;
     border: 20px rgba(230, 124, 10, 0.843) dotted;
@@ -137,87 +120,58 @@
     font-weight: bold;
     padding: 20px;
   }
-  
   #home {
     display: flex;
     padding-top: 50px;
   }
-  
   .body {
     padding: 10px 0 50px 0;
   }
-  
+/*style css stuff data  code sanae*/
+#butt{
+  color: rgb(55, 107, 154);
+  font-weight: bold;
+  font-size: medium;
+  width: 200px;
+  margin: 20px;
+  border-radius: 20px;
+}
+#cap{
+  font-size: 40px;
+  color: rgb(98, 84, 71);
+  font-style: italic;
+  font-weight: bold;
+  font-family:sans-serif;
+  padding:5px;
+}
+#bodyTable{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family:sans-serif
+}
+tr:nth-child(even){
+  background-color: rgba(26, 76, 99, 30%);
+}
+tr:hover {
+  background-color: #ddd;
+}
+th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: rgb(65, 113, 136);
+  color: white;
+  font-family:sans-serif
+}
 
-/*style css stuff list */
-#bodystuff{
-    width: 100%;
-    margin: auto;
-    background-color:rgb(186, 183, 183);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-.formstuff{
-    color: rgb(137, 75, 17);
-     font-weight: bold;
-     width: 600px;
-    margin: 20px;
-}
-#otherstaff{
-    color: rgb(22, 67, 145);
-    margin-left: 10px;
- }
-#IdCollab{
-    border: 20 rgba(211, 127, 37, 0.755);
-    border-radius: 20px;
-    font-size: medium;
-        
-    background-color: #dd792771;
-}
-#enterstuff{
-     color: rgb(10, 47, 93);
-     font-weight: bold;
-    margin-left: 300px;
-    background-color: #34619d90;
-    border-radius: 20px;
- }
-.tablestuff{
-    overflow: auto;
-    border: 3px solid black;
-    border-collapse: collapse;
-    width: 90%;
-    margin: auto;
- }
-caption {
-    margin: 60px;
-    color: rgb(101, 139, 194);
-    font-style: italic;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 50px;
- }
- thead{
-    background-color: #d0e3fa;
-     border: 1px solid #6495ed;
- }
- tbody {
-     background-color:#FFFFFF;
-    border: 1px solid #6495ed;
-}
- th {
-     border: 1px dotted #6495ed;
-     background-color: #eff6ff;
-     padding: 5px;
-}
-    td{
-    font-size: 80%;
-    border: 1px solid #6495ed;
-    padding: 5px;
-    text-align: left;
-    font-family: sans-serif;
- }
-/*style css footer*/
+/*  fin code body sanae */
 footer{
     background-color: rgba(111, 187, 204, 0.9);
   border-radius: 30px;
